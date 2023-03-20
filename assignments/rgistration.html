@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Masai Vaccination</title>
+    <link rel="stylesheet" href="ragistration.css">
+</head>
+
+<body>
+
+    <nav>
+        <div class="logo">Masai Vaccination</div>
+        <ul class="ul">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="./rgistration.html">Registration</a></li>
+            <li><a href="dashbord.html">Dashboard </a></li>
+            <li><a href="vaccination.html">Vaccinated</a></li>
+        </ul>
+
+        <div id="myslide" class="slide">
+            <a href="#" class="closebtn" onclick="closenav()">X</a>
+            <a href="./index.html">HOME</a>
+            <a href="./rgistration.html">Registration</a>
+            <a href="./dashbord.html">Dashboard</a>
+            <a href="./vaccination.html">Vaccinated</a>
+        </div>
+        <button id="burbtn" class="openbtn" onclick="opennav()">|||</button>
+
+    </nav>
+    <section>
+        <div class="main-div">
+            <form action="">
+                <div class="name-div">
+                    <p>Email</p>
+                    <input type="email" id="email" placeholder="Please enter your Email">
+
+                    <p>Name</p>
+                    <input type="text" id="name" minlength="4" placeholder="Please enter your name">
+
+                    <p>Age</p>
+                    <input type="number" id="age" min="18" max="40" placeholder="Please enter your age">
+                </div>
+                <div>
+                    <p>Designation</p>
+                    <div>
+                        <input type="radio" class="radio" name="contact" value="student" />
+                        <label for="contactChoice1">student</label>
+                        <input type="radio" class="radio" name="contact" value="employee" />
+                        <label for="contactChoice1">employee</label>
+                    </div>
+
+                </div>
+                <p>Priority</p>
+                <div>
+                    <select name="" id="4Priority">
+                        <option value="">Select Priority</option>
+                        <option value="P0">P0</option>
+                        <option value="P1">P1</option>
+                        <option value="P2">P2</option>
+                        <option value="P3">P3</option>
+
+                    </select>
+                </div>
+
+                <p>Vaccine Name</p>
+
+                <div>
+
+                    <select name="" id="3Vaccine">
+                        <option value=""> Select Vaccine</option>
+                        <option value="Covishield">Covishield </option>
+                        <option value="Covaxin">Covaxin</option>
+                        <option value="Sputnik">Sputnik</option>
+                    </select>
+                </div>
+
+                <br>
+
+                <div>
+                    <button id="submit">Registration</button>
+                </div>
+
+
+            </form>
+
+
+        </div>
+    </section>
+
+
+
+</body>
+
+</html>
+
+<script src="./rgistration.js"></script>

@@ -1,0 +1,269 @@
+#main-div{
+
+    /* border: 2px solid red; */
+    margin: 0% 40% 0% 5%;
+
+   padding-top: 10%;
+    
+    padding-left: 2%;
+    
+}
+section{
+  
+  width: 100%;
+  height: 100vh;
+  background: url(https://www.everbridge.com/wp-content/uploads/2021/02/covid-vaccine-registration.jpg);
+  /* background-color: rgb(72, 136, 237); */
+  background-size: cover;
+  background-position: center;
+}
+
+
+
+
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+}
+nav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  padding: 10px 90px;
+  box-sizing: border-box;
+  
+  
+
+  
+}
+nav .logo {
+  padding: 22px 20px;
+  height: 30px;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: rgb(23, 24, 24);
+  text-decoration: none;
+}
+
+
+nav ul{
+  list-style: none;
+  float: right;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li a {
+   line-height: 80px;
+   color: rgb(35, 33, 33);
+   padding: 12px 30px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+nav ul li a:hover {
+  background: rgba(20, 20, 20, 0.7);
+  border-radius: 6px;
+  cursor: pointer;
+  color: #fff;
+
+}
+
+h5{
+  font-size: 20px;
+}
+#bodyTable{
+    margin-top: 20px;
+}
+tbody{
+  font-size: 20px;
+  color: rgb(248, 245, 254);
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(90, 84, 84);
+  border-radius: 6px;
+  
+  text-align: center;
+
+}
+#tr th{
+    font-size: 20px;
+    color: rgb(248, 245, 254);
+    width: 50%;
+    padding: 10px;
+    background-color: black;
+    border-radius: 5px;
+}
+#otpBtn{
+  
+    width: 80px;
+    font-size: 100%;
+    padding: 1%;
+    border-radius: 5px;
+    background-color: rgb(84, 84, 229);
+    border:none;
+    color: aliceblue;
+
+
+}
+#otpBtn:hover{
+    background-color: rgb(38, 38, 194);
+    
+
+}
+input{
+  width: 35%;
+  font-size: 15px;
+  padding: 1%;
+  border-radius: 5px;
+}
+
+
+
+
+.slide{
+  display: none;
+ }
+ .openbtn{
+  display: none;
+
+ }
+
+
+@media screen and (min-width:200px) and (max-width:1100px) {
+ 
+ 
+ .ul li a {
+  display: none;
+
+}   
+
+
+#tr th{
+  font-size: 60%;
+  color: rgb(248, 245, 254);
+  width: 100%;
+  padding: 10px;
+  background-color: black;
+  border-radius: 5px;
+}
+
+tbody{
+  font-size: 60%;
+  color: rgb(248, 245, 254);
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(59, 57, 57);
+  border-radius: 6px;
+  
+  text-align: center;
+
+}
+
+
+nav .logo {
+  padding: 2% 2%;
+  height: 80%;
+  float: left;
+  width: 50%;
+  text-align: center;
+  font-size: 150%;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+  text-decoration: none;
+}
+.main-div{
+
+  /* border: 2px solid red; */
+  margin: 0% 40% 0% 20%;
+
+ padding-top: 15%;
+  
+  padding-left: 2%;
+  
+}
+
+
+
+
+body{
+  background-color: rgb(228, 220, 220);
+}
+.slide{
+  display: block;
+  width:0px;
+  height: 100vh;
+  background-color: #111;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 1;
+  overflow: hidden;
+  transition: 0.5s;
+
+}
+.slide a{
+  text-decoration: none;
+  color: white;
+  display:block;
+  padding: 10px;
+  margin-top: 20px;
+  font-size: 20px;
+}
+.closebtn{
+  float: right;
+  position: absolute;
+  right: 6px;
+  top: -10px;
+}
+.openbtn{
+  display: block;
+  /* background-color: #111; */
+  cursor: pointer;
+  /* color: white; */
+  padding: 15px;
+  font-size: 20px;
+  float: right;
+  border-radius: 5px;
+}
+
+
+#main-div{
+  padding-top: 20%;
+  width: 20%;
+}
+
+input{
+  width: 90%;
+  font-size: 15px;
+  padding: 1%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.slide>a:hover{
+
+  background-color: #fff;
+  color: black;
+
+  transition: 0.20s;
+
+}
+
+
+
+ }
+
+
+
+

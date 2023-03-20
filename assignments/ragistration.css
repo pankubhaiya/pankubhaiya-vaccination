@@ -1,0 +1,214 @@
+
+.main-div{
+
+      /* border: 2px solid red; */
+      margin: 0% 40% 0% 20%;
+
+     padding-top: 8%;
+      
+      padding-left: 2%;
+      
+}
+section{
+    
+    width: 100%;
+    height: 100vh;
+    background: url(https://www.everbridge.com/wp-content/uploads/2021/02/covid-vaccine-registration.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    padding: 10px 90px;
+    box-sizing: border-box;
+    
+    
+
+    
+}
+nav .logo {
+    padding: 2% 2%;
+    height: 80%;
+    float: left;
+    
+    font-size: 150%;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+nav ul{
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+ .ul li a {
+     line-height: 80px;
+     color: rgb(35, 33, 33);
+     padding: 12px 30px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+ .ul li a:hover {
+    background: rgba(20, 20, 20, 0.7);
+    border-radius: 6px;
+    cursor: pointer;
+    color: #fff;
+
+}
+.ull li a {
+    display: none;
+  
+}
+
+.name-div input{
+    width: 48%;
+    font-size: 15px;
+    padding: 1%;
+    border-radius: 5px;
+}
+#submit{
+    width: 50%;
+    font-size: 100%;
+    padding: 2%;
+    border-radius: 5px;
+    background-color: rgb(84, 84, 229);
+    border:none;
+    color: aliceblue;
+
+
+}
+#submit:hover{
+    background-color: rgb(38, 38, 194);
+    
+
+}
+
+select{
+    width: 50%;
+    font-size: 15px;
+    padding: 1%;
+    border-radius: 5px;
+
+}
+
+
+
+.slide{
+    display: none;
+   }
+   .openbtn{
+    display: none;
+
+   }
+@media screen and (min-width:200px) and (max-width:1100px) {
+   
+
+   .ul li a {
+    display: none;
+ 
+}   
+nav .logo {
+    padding: 2% 2%;
+    height: 80%;
+    float: left;
+    width: 50%;
+    text-align: center;
+    font-size: 150%;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+}
+.main-div{
+
+    /* border: 2px solid red; */
+    margin: 0% 40% 0% 20%;
+
+   padding-top: 15%;
+    
+    padding-left: 2%;
+    
+}
+
+
+
+
+body{
+    background-color: rgb(223, 214, 214);
+}
+.slide{
+    display: block;
+    width:0px;
+    height: 100vh;
+    background-color: #111;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 1;
+    overflow: hidden;
+    transition: 0.5s;
+
+}
+.slide a{
+    text-decoration: none;
+    color: white;
+    display:block;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.closebtn{
+    float: right;
+    position: absolute;
+    right: 6px;
+    top: -10px;
+}
+.openbtn{
+    display: block;
+    /* background-color: #111; */
+    cursor: pointer;
+    /* color: white; */
+    padding: 15px;
+    font-size: 20px;
+    float: right;
+    border-radius: 5px;
+}
+
+
+.slide>a:hover{
+
+    background-color: #fff;
+    color: black;
+  
+    transition: 0.20s;
+  
+  }
+  
+
+
+   }
+
